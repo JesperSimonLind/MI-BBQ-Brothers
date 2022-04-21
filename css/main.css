@@ -1,0 +1,48 @@
+body,
+html {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.hero-image {
+  background-image: url("../assets/mt-1408-home-header-bg.jpeg");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero-text {
+  color: white;
+  font-size: 28px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu-button {
+  font-size: 18px;
+  background-color: #e30613;
+  width: 155px;
+  height: 58px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-button:hover {
+  background-color: #ce0411;
+}
+
+.box {
+  height: 100vh;
+}
+
+.product-box {
+  height: 100vh;
+}
